@@ -28,9 +28,7 @@ export class InicioController {
       data.forEach((v) => {
         contenidoHTML += '\n' + v ;
       });
-      response.send(contenidoHTML);
+      return response.send(contenidoHTML);
     });
   }
-
-
 }
